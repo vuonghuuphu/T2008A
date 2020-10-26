@@ -1,0 +1,33 @@
+body{
+	background-color: rgb(255,255,240);
+	padding-right: 20%;
+}
+textarea{
+	overflow: auto;
+}
+.imghelp{
+	cursor: help;
+}
+.emaileditor{
+	background-color: #FFFFDD;
+}
+#main{
+	width: 400px;
+	background-color:#DDFFEE;
+	padding-right: 10px; 
+}
+#help{
+	position: absolute;
+	width: 500px;
+	height: 420px;
+	padding-top: 10px;
+	background-color: #cfc;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid 2px; 
+}
+.close{
+	text-align: left;
+	color: blue;
+	cursor: hand;
+}

@@ -1,0 +1,112 @@
+#tb2{
+	text-align: center;
+	font-size: 20px;
+	margin left: auto;
+	margin right: auto;  
+
+}
+
+.menuimg{
+	float: left;
+	padding-left: 40px 
+}
+.menuf{
+	padding-left: 20%;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menuf1{
+	padding-left: 17px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#mn{
+	list-style-type: none;
+	display:flex;
+}
+.vcps{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+}
+.tb{
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+table{
+	margin-right: auto;
+	margin-left: auto;
+}
+.cltb{
+	background-color:#e6e6e6;
+	max-height:1060px;
+}
+.clvd{
+	background-color:#e6e6e6;
+	max-height:3060px;
+}
+#mn li a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+#mn li a:hover {
+color: blue;
+}
+.colvd{
+    background-color:#e6e6e6;
+}
+.video{
+	padding-top:5%;
+	padding-right:15%;
+ }
+ .textvd{
+ 	padding-top: 0%;
+ 	padding-right:5% ;
+	text-align: left;
+    padding-left:10px; 
+ }
+.tb3{
+	text-align: center;
+	padding-right:10px; 
+}
+
+
+
+
+
+#gioithieutieude{
+	 padding-top:5px;
+	 padding-left: 4%;
+	 padding-right: 10%;
+	 background-color:#3b2612 ;
+	 color: white;
+	 padding-bottom: 10px;
+}
+#gioithieutieude p a {
+	color:white;
+	text-decoration: none;
+}
+#end{
+	 background-color:#3b2612 ;
+	 padding-top: 2%;
+	 padding-bottom:2%; 
+	 padding-left: 5%;
+	 text-align: left;
+	 color: white;
+}
+#baiviet{
+	float:left;
+	padding-right: 30%;
+	padding-left: 5%;
+}
+#chiase{
+	float: right;
+	padding-right:5%;
+	padding-top: 0%
+}
