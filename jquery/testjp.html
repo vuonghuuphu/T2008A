@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <link rel="icons" href="https://menback.com/wp-content/uploads/2020/03/logo-gucci.jpg">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<!-- https://fontawesome.com/icons?from=io -->
+</head>
+<body>
+<div style="background-color: #b3d9ff; font-weight: bold;text-transform: uppercase;" >
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+    <a class="nav-link" style="color: black;" href="#"><i class="fas fa-home"></i> |</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: black;" href="#">Menu </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: black;" href="#">Cười </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: black;" href="#">Thơ </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: blue;" href="#">Truyện ma </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: black;" href="#">Truyện ngắn </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: blue;" href="#">Truyện teen </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: black;" href="#">tiểu thuyết </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: red;" href="#">truyện gay </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: red;" href="#">Truyện + </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: black;" href="#">tâm sự </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"style="color: red;" href="#">tìm truyện </a>
+    </li>
+  </ul>
+</div>
+<div class="row" style="border-top: solid blue 8px;"></div>
+
+<div style="background-color: #d9d9d9; padding-bottom: 10px;">
+	<div class="row">
+		<div class="col-md-2" style="background-color: white;text-align: center; padding-top:10px;" >
+			<div>
+				<p><button style="width: 100%;" type="button" class="btn btn-primary">Đăng truyện ngắn</button></p>
+				<p><button style="width: 100%;" type="button" class="btn btn-primary">Đăng truyện teen</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-secondary">Đăng tiểu thuyết</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-success">Đăng xuyên không</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-info">Đăng truyện gay</button></p>
+                <p><button style="width: 100%;color: white;" type="button" class="btn btn-warning">Đăng truyện les</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-danger">Đăng truyện 16+</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-info">Đăng đam mĩ</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-danger">Đăng đam mỹ</button></p>
+                <p><button style="width: 100%; color: white;" type="button" class="btn btn-warning">Đăng truyện ma</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-dark">Báo truyện mới</button></p>
+                <p><button style="width: 100%;" type="button" class="btn btn-primary">Báo truyện full</button></p>
+			</div>
+		</div>
+		<div class="col-md-10" >
+			<div class="row" id="addt">
+            </div>
+	</div>
+
+
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-1"></div>
+		
+		<div class="col-md-10" style="padding-top: 30px;">
+			<form>
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-3">
+						<p><label>Tiêu đề</label></p>
+						<p><label>Link hình ảnh</label></p>
+						<p><label>Điểm vote</label></p>
+						<p><label>Lượt xem</label></p>
+					</div>
+					<div class="col-md-5">
+						<p><input size="70%" type="text" name="name" id="name"></p>
+						<p><input size="70%" type="text" name="link" id="link"></p>
+						<p><input size="70%" type="text" name="vote" id="vote"></p>
+						<p><input size="70%" type="text" name="views" id="views"></p>
+						<p><button id="add" type="button" class="btn btn-danger">thêm</button></p>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-2"></div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$('#add').click(function () { 
+var key = 'list'
+    var name=$('#name').val();
+    var link=$('#link').val();
+    var vote=$('#vote').val();
+    var views=$('#views').val();
+
+    $('#addt').append(`
+    <div class="col-md-3">
+   		<a href=""><img src="${link}" style="width: 100%;"><br>${name}<br>${vote}<br>${views}</a>
+   	</div></div>
+    `);
+    localStorage.setItem('name_dt',name);
+    localStorage.setItem('link_dt',link);
+    localStorage.setItem('vote_dt',vote);
+    localStorage.setItem('views_dt',views);
+   
+    var name = localStorage.getItem('name_dt')
+	var link =  localStorage.getItem('link_dt')
+	var vote= localStorage.getItem('vote_dt')
+	var views = localStorage.getItem('views_dt')
+
+	$('#name').val('name')
+ })
+</script>
+</body>
+</html>
